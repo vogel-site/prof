@@ -20,6 +20,7 @@
 	sec: url(https://vogel-site/fonts/Source/) format('opentype');
 }
 
+@font-face {font-family: 'Cochin';src: url('cochin-lt.ttf') format('truetype');}
 @keyframes curtain{
 	0%{transform: translateY(-100vh); opacity:0}
 	100%{transform: translateY(0); opacity: 1;};
@@ -86,4 +87,4 @@ text-decoration: none;
 
 footer {
 	text-align: center;
-	}
+	font-family:'Cochin',serif;}
