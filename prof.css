@@ -32,7 +32,7 @@
 
 @font-face {
 	font-family: 'Holland';
-	src: url('https://vogel-site.github.io/fonts/Holland.ttf') format('opentype');}
+	src: url('Holland.ttf') format('opentype');}
 
 html {scroll-behavior: smooth;}
 
