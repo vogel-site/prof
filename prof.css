@@ -32,7 +32,7 @@
 
 @font-face {
 	font-family: 'Holland';
-	src: url('Holland.ttf') format('opentype');}
+	src: url('Holland.ttf') format('truetype');}
 
 html {scroll-behavior: smooth;}
 
