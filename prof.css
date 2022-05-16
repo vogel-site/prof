@@ -2,24 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;600;700;800&display=swap');
 
-@font-face{
-	font-family: 'Source';
-	sec: url(https://vogel-site/fonts/Source/) format('opentype');
-}
-@font-face{
-	font-family: 'Source';
-	sec: url(https://vogel-site/fonts/Source/) format('opentype');
-}@font-face{
-	font-family: 'Source';
-	sec: url(https://vogel-site/fonts/Source/) format('opentype');
-}@font-face{
-	font-family: 'Source';
-	sec: url(https://vogel-site/fonts/Source/) format('opentype');
-}@font-face{
-	font-family: 'Source';
-	sec: url(https://vogel-site/fonts/Source/) format('opentype');
-}
-
 @font-face {font-family: 'Cochin';src: url('cochin-lt.ttf') format('truetype');}
 @keyframes curtain{
 	0%{transform: translateY(-100vh); opacity:0}
@@ -37,6 +19,7 @@
 
 html {scroll-behavior: smooth;}
 
+body{background-color: #181a1b;}
 #body {
 	animation-name: curtain;
 	animation-duration: 2s;
@@ -46,7 +29,7 @@ headers {
 height: 9vh;
 min-height:8vh;
 max-height: 10vh; 
-background-color: rgba(255,255,255,0.9);
+background-color: rgba(23,25,27,0.9);
 font-size: 5vh;
 position: fixed;
 top: 0;left:0;
@@ -64,7 +47,7 @@ text-align: center;
 }
 
 #headername {
-color: black;
+color: white;
 text-decoration: none;
 }
 
@@ -87,4 +70,5 @@ text-decoration: none;
 
 footer {
 	text-align: center;
-	font-family:'Cochin',serif;}
+	font-family:'Cochin',serif;
+color: white;}
