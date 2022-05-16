@@ -33,7 +33,7 @@ background-color: rgba(23,25,27,0.9);
 font-size: 5vh;
 position: fixed;
 top: 0;left:0;
-box-shadow: 0 1vh 2vh silver;
+box-shadow: 0 1vh 1vh silver;
 font-family:'Holland', serif;
 animation-name: header;
 animation-duration: 2s;
