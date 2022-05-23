@@ -23,7 +23,7 @@
 
 html {scroll-behavior: smooth;}
 
-body{background: linear-gradient(to bottom right, #181a1b, #333333);
+body{background: linear-gradient(to bottom right, #181a1b, #333333);-moz-linear-gradient(top left, #181a1b, #333333);-webkit-linear-gradient(top left, #181a1b, #333333);
 }
 #body {
 	animation-name: curtain;
