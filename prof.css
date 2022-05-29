@@ -23,8 +23,7 @@
 
 html {scroll-behavior: smooth;}
 
-body{background: linear-gradient(to bottom right, #181a1b, #333333);-moz-linear-gradient(top left, #181a1b, #333333);-webkit-linear-gradient(top left, #181a1b, #333333);
-}
+
 #body {
 	animation-name: curtain;
 	animation-duration: 2s;
@@ -37,7 +36,6 @@ animation-duration: 2s;
 animation-delay: 1s;
 animation-fill-mode: both;
 width: 100vw;
-background-color: rgba(23,25,27,0.9);
 font-size: 7vh;
 position: fixed;
 top: 0;left:0;
@@ -49,7 +47,6 @@ padding: 0.2em;
 }
 
 #headername {
-color: white;
 text-decoration: none;
 }
 
@@ -73,10 +70,9 @@ text-decoration: none;
 footer {
 	text-align: center;
 	font-family:'Cochin',serif;
-color: white;margin: 1em 0 1em;}
+	margin: 1em 0 1em;}
 
 #lines {
-	color: white;
 	font-family: 'Noto Sans JP', serif;
 	font-weight: 300;
 	text-align: center;
@@ -91,3 +87,16 @@ color: white;margin: 1em 0 1em;}
 }
 
 img {width: 25vw;}
+
+@media (prefers-color-scheme: light){
+body {color: #333333;}
+}
+
+@media (prefers-color-scheme: dark){
+body{background: linear-gradient(to bottom right, #181a1b, #333333);-moz-linear-gradient(top left, #181a1b, #333333);-webkit-linear-gradient(top left, #181a1b, #333333);
+}
+
+headers {background-color: rgba(23,25,27,0.9);}
+
+#headername,#lines,footer {color: white;}
+}
