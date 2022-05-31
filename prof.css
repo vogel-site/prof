@@ -6,7 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 
-@font-face {font-family: 'Cochin';src: url('cochin-lt.ttf') format('truetype');}
+@font-face {font-family: 'Hoefler';src: url('hoeflertext-roman.otf') format('opentype');}
 @keyframes curtain{
 	0%{opacity:0}
 	100%{opacity: 1;};
@@ -69,7 +69,7 @@ text-decoration: none;
 
 footer {
 	text-align: center;
-	font-family:'Cochin',serif;
+	font-family:'Hoefler',serif;
 	margin: 1em 0 1em;}
 
 #lines {
