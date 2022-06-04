@@ -70,7 +70,8 @@ text-decoration: none;
 footer {
 	text-align: center;
 	font-family:'Hoefler',serif;
-	margin: 1em 0 1em;}
+font-size:1.5vh;
+	margin: 3vh 0 3vh;}
 
 #lines {
 	font-family: 'Noto Sans JP', serif;
