@@ -43,7 +43,7 @@ text-shadow: 0.01em 0.01em 0.01em #dcebfa;
 font-family:'Holland', serif;
 text-align: center;
 padding: 0.2em;
-
+background-color: rgba(0,0,0,0);
 }
 
 #headername {
@@ -97,7 +97,7 @@ body {color: #333333;}
 body{background: linear-gradient(to bottom right, #181a1b, #333333);-moz-linear-gradient(top left, #181a1b, #333333);-webkit-linear-gradient(top left, #181a1b, #333333);
 }
 
-headers {background-color: rgba(23,25,27,0.9);}
+//headers {background-color: rgba(23,25,27,0.9);}
 
 #headername,#lines,footer {color: white;}
 }
